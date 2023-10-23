@@ -14,13 +14,13 @@ import org.springframework.context.annotation.Bean;
 //      i.e. if 'spring-webmvc' is on the classpath, then this annotation will flag the application as a web application
 //          and activates key behaviors, such as setting up 'DispatcherServlet'
 // - @ComponentScan: Tells Spring to look for other components, configurations, and services in the 'com/example' package,
-//  letting it find the Controllers
+//      letting it find the Controllers
 @SpringBootApplication
 public class Application {
 
     public static void main(String[] args) {
-        // Spring Boot's SpringApplication.run() is used to launch an application
-        // There are no XML lines or web.xml file required when using Spring Boot (no need to configure any plumnbing or infrastructure)
+        // Spring Boot's SpringApplication.run() is used to launch an application.
+        // There are no XML lines or web.xml file required when using Spring Boot (no need to configure any plumnbing or infrastructure).
         SpringApplication.run(Application.class, args);
     }
 
